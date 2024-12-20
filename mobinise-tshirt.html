@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3/bootstrap-5.3.3/dist/css/bootstrap.min.css">
+  <script src="bootstrap-5.3.3/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+     .btn1:hover {
+      background-color: #a8d741 !important;
+      transform: scale(1.1) rotate(3deg);
+      box-shadow: 0px 5px 15px gray;
+    }
+    .btn2,.btn1 {
+      transition: 0.5s;
+    }
+    .btn2:hover {
+      background-color: white !important;
+      transform: rotate(15deg) scale(1.1);
+      box-shadow: 0px 10px 20px gray;
+      color: black !important;
+      border: 2px solid #000 !important;
+    }
+    .c1:hover{
+      transform: scale(1.1) rotate(3deg);
+      box-shadow: 0px 5px 15px gray;
+     }
+    .fs1 {
+      font-size: 60px;
+    }
+
+    .con {
+      background-color: #a8d741;
+      justify-content: center;
+    }
+    .crd {
+      font-size: 80px;
+    }
+
+    .btn2,.container1,.tbl,.yt {
+      background-color: #a8d741;
+    }
+    .crd1:hover {
+      transition: 0.5s;
+    }
+
+    .crd1:hover {
+      transform: scale(1.1) rotate(-1deg);
+      box-shadow: 0 5px 15px gray;
+    }
+    .crd3 {
+      justify-content: center;
+      padding: 25px;
+      text-decoration: none;
+    }
+    .crd2:hover {
+      transform: rotate(-3deg);
+      box-shadow: 0px 0px 25px #000;
+      transition: box-shadow 0.5s;
+    }
+
+    .crd4,.crd2,.c3,.contact1,.contact2 {
+      text-decoration: none;
+      background-color: #eeeeee;
+    }
+
+    .contact2:hover{
+      transform: rotate(5deg);
+      transition: 1s;
+      box-shadow: 0px 0px 25px black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header d-flex justify-content-between mt-3">
+    <div class="fs-1 fw-medium my-2 px-4">ToolM5
+    </div>
+
+    <div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-4 gap-3">
+              <li class="nav-item fw-medium">
+                <a class="nav-link text-dark fs-5" href="#">About us</a>
+              </li>
+              <li class="nav-item fw-medium">
+                <a class="nav-link text-dark fs-5" href="#">Services</a>
+              </li>
+              <li class="nav-item fw-medium">
+                <a class="nav-link text-dark fs-5" href="#">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-4" href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-4" href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-4" href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <button class="rounded-pill btn1 px-3 py-2 fs-5 fw-5">Get Started <i
+                    class="fa-solid fa-circle-chevron-right"></i></button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+
+  <section class="container1 text-center rounded-5 p-5 m-5">
+    <div class="r p-5">
+        <p class="fs-1 fw-2">Create your</p>
+        <p class="fs1 p-3">T-shirt Design</p>
+        <button class=" rounded-pill fs-4 p-3 ps-4 pe-4 bg-dark text-white border border-white border-2 btn2">Get
+          started</button>
+        <a href="#" class="d-block text-dark fs-3 fw-bold p-3">view how it work</a>
+        <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+    
+    </div>
+  </section>
+
+
+  <section class="m-5 border border-bottom-0 border-end-0 border-start-0 border-top-gray border-2">
+    <div class="r">
+      <div class="div m-3">
+        <h2 class="">Our Features</h2>
+      </div>
+
+      <div class="d-flex flex-wrap gap-5 div1 justify-content-evenly me-5">
+
+        <div class="d1 d-flex">
+          <div><img src="images/color-palette.png" alt="" width="90px">
+            <div class="p-3">
+              <h5>Unique Design</h5>
+              <p>jul 13 2025</p>
+            </div>
+          </div>
+        </div>
+
+        <div><img src="images/layers.png" alt="" width="90px">
+          <div class="p-3">
+            <h5>Unique Design</h5>
+            <p>jul 13 2025</p>
+          </div>
+        </div>
+
+        <div><img src="images/shirt.png" alt="" width="90px">
+          <div class="p-3">
+            <h5>Unique Design</h5>
+            <p>jul 13 2025</p>
+          </div>
+        </div>
+
+        <div><img src="images/face-smile-regular.svg" alt="" width="90px">
+          <div class="p-3">
+            <h5>Unique Design</h5>
+            <p>jul 13 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="bg-dark m-5 p-5 rounded-5">
+      <p class="text-white fs-1">How it works?</p>
+
+      <div class="d-flex justify-content-evenly gap-4 flex-wrap">
+  
+        <div class="card rounded-5 c1" style="width: 35rem;">
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg"
+            class="card-img-top rounded-5 p-3" alt="Materials image">
+          <div class="card-body">
+            <p class="card-title fs1 mb-4 pb-3">Unique T-Shirt</p>
+  
+            <div class="d-flex flex-wrap gap-2 justify-content-between  my-2">
+              <button class="rounded-pill btn2 fs-4 py-1 px-3">Buy for $59</button>
+              <button class="rounded-pill btn1 fs-4 py-1 px-3">View all <img
+                  src="https://cdn-icons-png.flaticon.com/128/4212/4212196.png" height="25px" width="25px"></button>
+            </div>
+          </div>
+        </div>
+        <div class="card rounded-5 c1" style="width: 35rem;">
+          <p class="mx-3 my-2 fs-5">Unique T-Shirt Design</p>
+          <div class="card-body m-3 border-end-0 border-bottom-0 border-start-0 border-black border">
+            <p class="card-title fs-2  fw-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id orci nec
+              lectus lacinia tempus. Praesent nec quam mollis turpis eleifend consequat.</p>
+            <p class="card-text fs-2 pt-3 pb-1 mb-5 fw-2">Phasellus euismod maximus ipsum vehicula vehicula. Mauris
+              posuere risus nec purus dapibus semper sed id ligula. Integer massa lorem, fringilla vel eros.</p>
+            <div class="d-flex flex-wrap gap-2 justify-content-between mt-5">
+              <button class="rounded-pill btn2 mt-5 fs-4 py-2 px-3">Subscribe $79/q</button>
+              <button class="rounded-pill btn1 fs-4 mt-5 py-2 px-3">More Info <img
+                  src="https://cdn-icons-png.flaticon.com/128/4212/4212196.png" height="25px" width="25px"></button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      </div>
+    </section>
+   
+  
+
+        
+
+
+    <section class="container mx-5 my-5">
+      <div class="row fs-5">
+        <div class="col text-center my-5">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="col my-5 border border-0  border-2 border-black border-start">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, corrupti odit nemo possimus ex veritatis
+            quod tempora, commodi, repudiandae ipsam temporibus aliquam dolor. Iusto unde, est ea sint fuga porro?Lorem
+            ipsum dolor sit amet consectetur, adipisicing elit. Voluptates libero molestias sequi, molestiae fugit nulla
+            magni odio repudiandae dolor!
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <div>
+      <p class="fs-1">Professional Tools</p>
+    </div>
+
+    <section class="m-5">
+      <div class="container1 rounded-5 m-3">
+        <div class="row1 d-flex justify-contant-between gap-4 rounded-5 gap-4 crd3">
+          <div class="card rounded-5 crd2" style="width: 26rem;">
+            <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpg"
+              class="card-img-top rounded-top-5" alt="..." height="250px">
+            <div class="card-body m-3">
+              <h5 class="card-title fs-3">Quality Materials</h5>
+              <p class="fs-5 border border-0  border-1 border-black border-bottom py-3">Lorem ipsum dolor sit amet
+              </p>
+              <a href="" class="text-black read-more fs-5">Read More ></a>
+            </div>
+          </div>
+
+          <div class="card rounded-5 crd2" style="width: 26rem;">
+            <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg"
+              class="card-img-top rounded-top-5" alt="..." height="250px" style="object-fit: cover;">
+            <div class="card-body m-3">
+              <h5 class="card-title fs-3">High Print Quality</h5>
+              <p class="fs-5 border border-0  border-1 border-black border-bottom py-3">Lorem ipsum dolor sit amet
+
+                content.</p>
+              <a href="#" class="text-black read-more fs-5">Read More ></a>
+            </div>
+          </div>
+
+          <div class="card rounded-5 crd2" style="width: 26rem;">
+            <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg"
+              class="card-img-top ronded-top-5" alt="..." height="250px" style="object-fit: cover;">
+            <div class="card-body m-3">
+              <h5 class="card-title fs-3">Good Reviews</h5>
+              <p class="fs-5 border border-0  border-1 border-black border-bottom py-3">Lorem ipsum dolor sit amet
+                content.</p>
+              <a href="#" class="text-black read-more fs-5">Read More ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="m-5 text-center w-50 m-auto my-5">
+      <div class="m-5">
+        <p class="fs-1">Our Shop</p>
+        <p class="text-black-50 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla
+          suscipit orci eu pellentesque. Nullam consectetur dolor vel ex ullamcorper, non viverra neque aliquet.</p>
+      </div>
+    </section>
+
+
+    <section class=" mx-1 p-3 rounded-5">
+      <div class="d-flex m-3 rounded-5 crd2">
+        <div>
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt="" width="550px"
+            class="rounded-3">
+        </div>
+        <div class="m-5 p-5">
+          <p class="fs-1">T-shirt with Print</p>
+          <p class="fs-5 text-block-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies metus
+            et nibh gravida, eu imperdiet ante egestas. Duis ornare lobortis ante, eget eleifend sapien dictum ut.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+        </div>
+        <div class="px-5 py-5 mt-5">
+          <p style="font-size: 80px;">$29</p>
+          <button class="rounded-pill fs-4 mb-5 btn2">View all <img
+              src="https://cdn-icons-png.flaticon.com/128/4212/4212196.png" height="25px" width="25px"></button>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-1 p-3 rounded-5">
+      <div class="d-flex m-3 rounded-5 crd2">
+        <div>
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt="" width="550px"
+            class="rounded-3">
+        </div>
+        <div class="m-5 p-5">
+          <p class="fs-1">T-shirt with Slogan</p>
+          <p class="fs-5 text-block-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies metus
+            et nibh gravida, eu imperdiet ante egestas. Duis ornare lobortis ante, eget eleifend sapien dictum ut.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+        </div>
+        <div class="px-5 py-5 mt-5">
+          <p style="font-size: 80px;">$45</p>
+          <button class="rounded-pill fs-4 mb-5 btn2">View all <img
+              src="https://cdn-icons-png.flaticon.com/128/4212/4212196.png" height="25px" width="25px"></button>
+
+        </div>
+      </div>
+    </section>
+
+
+    <div class="m-5">
+      <div class="m-5 my-5 ">
+        <p class="fs-1">Our Team</p>
+        <p class="fs-5 text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+  
+    </div>
+
+
+    <section class="p-5 m-5 rounded-5">
+
+      <div class="row1 d-flex justify-content-evenly gap-4 ">
+  
+        <div class="card crd2 rounded-5" style="width: 25rem;">
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team1.jpg"
+            class="card-img-top rounded-top-5" height="450px" alt="Materials image">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Jessica Swift</h5>
+            <p class="card-text fs-5 text-black-50">Manager</p>
+            <p class="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  
+            <div>
+              <button class="rounded-pill btn1 fs-5 p-2">View Profile <img
+                  src="https://cdn-icons-png.flaticon.com/128/4212/4212196.png" height="25px" width="25px"></button>
+  
+            </div>
+          </div>
+        </div>
+        <div class="card crd2 rounded-5" style="width: 25rem;">
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team2.jpg" height="450px"
+            class="card-img-top rounded-top-5" alt="Materials image">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Ben Palmer</h5>
+            <p class="card-text fs-5 text-black-50">Designer</p>
+  
+            <p class="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div>
+              <button class="rounded-pill btn1 fs-5 p-2">View Profile <img
+                  src="https://cdn-icons-png.flaticon.com/128/4212/4212196.png" height="25px" width="25px"></button>
+  
+            </div>
+          </div>
+        </div>
+        <div class="card crd2 rounded-5" style="width: 25rem;">
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team3.jpg" height="450px"
+            class="rounded-top-5 card-img-top" alt="Materials image">
+          <div class="card-body">
+            <h5 class="card-title">Adam Brown</h5>
+            <p class="card-text fs-5 text-black-50">Developer</p>
+            <p class="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  
+            <div>
+              <button class="rounded-pill btn1 fs-5 p-2">View Profile <img
+                  src="https://cdn-icons-png.flaticon.com/128/4212/4212196.png" height="25px" width="25px"></button>
+  
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+  
+
+
+
+
+    <section class="yt p-5">
+      <div class="r">
+        <div class="c text-center">
+          <p class="text-white fs1">View in Action</p>
+          <div class="m-4 position-relative">
+            <a href="https://youtu.be/PivzLLqDZac"><img
+                src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpg" width="60%"
+                class="rounded-5 img-fluid">
+            </a>
+            <div class="position-absolute top-50 start-50 translate-middle">
+              <a href="https://youtu.be/PivzLLqDZac" class="fs-1"><i class="fab fa-youtube fa-2xl yt-icon"></i></a>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="m-5 text-center">
+      <div class="container2 rounded-5 m-3 d-flex flex-wrap justify-content-evenly  text-center">
+        <div class="row1 d-flex justify-contant-between gap-4 rounded-5">
+          <div class="card rounded-5 crd2" style="width: 25rem;">
+            <img src="images/1img.png"
+            class="w-50 m-auto pt-5 rounded-top-5" alt="..." height="" width="50px">
+            <div class="card-body m-3">
+              <h1 class="card-title ">Our partner</h1>
+              <p class="fs-5  py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla suscipit.</p>
+              <button class="rounded-pill  fs-5 py-2 px-3 my-3 btn2">Learn More</button>
+  
+            </div>
+          </div>
+
+          <div class="card rounded-5 crd2" style="width: 25rem;">
+            <img src="images/2img.png"
+            class="w-50 m-auto pt-5 rounded-top-5" alt="...">
+            <div class="card-body m-3">
+              <h1 class="card-title">Our partner</h1>
+              <p class="fs-5  py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla suscipit.</p>
+              <button class="rounded-pill  fs-5 py-2 px-3 my-3 btn2">Learn More</button>
+  
+            </div>
+          </div>
+
+          <div class="card rounded-5  crd2" style="width: 25rem;">
+            <img src="images/3.png"
+              class="card-img-top ronded-top-5 w-50 m-auto pt-5 " alt="...">
+            <div class="card-body m-3">
+              <h1 class="card-title ">Our partner</h1>
+              <p class="fs-5  py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla suscipit.</p>
+              <button class="rounded-pill  fs-5 py-2 px-3 my-3 btn2">Learn More</button>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+          <div class="d-flex px-5 rounded-5 c3">
+            <div class="m-auto p-5">
+              <p class="fs-5 fst-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu accumsan diam, elementum maximus arcu. Lobortise est ut blandit facilisis, est quam dictum dolor, sed mollis augue. In elementum maximus tempus. Suspendisse augue eget massa vestibulum hendrerit purus."</p>
+              <h3>Steven Jason</h3>
+              <p>Client</p>
+              <button class="rounded-pill fs-4 mb-5 btn2">Read Full Review<img
+                src="https://cdn-icons-png.flaticon.com/128/4212/4212196.png" height="25px" width="25px"></button>
+            </div>
+            <div>
+              <img src="images/4img.jpg" alt="" class="rounded-5 w-500 m-1">
+            </div>
+          </div>
+    </section>
+
+
+    <section class="m-5">
+     <div class="p-5">
+      <div class="m-3">
+        <div class="text-center mt-5">
+          <p class="fs1">Contacts</p>
+          <p class="fs-3 text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      <div class="p-5">
+        <div class="d-flex justify-content-center text-center gap-5">
+          <div class="contact1 m-auto p-5 rounded-5" style="width: 150rem;" >
+            <div class="py-4"><img src="images/mail-box.svg" alt="" height="100px" class=""></div>
+            <h1 class="p-3">Email</h1>
+            <p>We will reply as soon as possible</p>
+            <p>Send Us an Email</p>
+          </div>
+  
+          <div style="width: 150rem;" class="contact2 p-5 rounded-5">
+            <div class="py-4"><img src="images/mobile-phone.png" alt="" width="80px"></div>
+            <h1 class="p-3">Phone</h1>
+            <p class="text-black-50 text-decoration-none">Mon - Fri 09:00 - 18:00</p>
+            <p>Call (800) 123 45 56</p>
+          </div>
+        </div>
+       </div>
+     </div>
+      </div>
+    </section>
+
+
+    <p class="fs-1 text-center m-3">Send Message</p>
+    <form method="post">
+    <section class="tbl container p-5 rounded-5" style="width: 60%;">
+      <div class="d-block">
+        <div class="m-auto d-flex flex-wrap mb-3 gap-3">
+            <input type="text" placeholder="Name" class="rounded py-2 px-3 col-md col-sm-12 border-0 fs-5">
+            <input type="email" placeholder="E-mail" class="rounded py-2 px-3 col-md col-sm-12 border-0 fs-5">
+        </div>
+        <div class="m-auto mb-3">
+            <input type="text" placeholder="Your Site" class="rounded py-2 px-4 col-sm-12 border-0 fs-5">
+        </div>
+        <div class="m-auto">
+          <textarea name="Message" placeholder="Message" rows="5" class="rounded px-4 py-2 col-sm-12 border-0 fs-5"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="rounded-pill btn1 fs-5 py-2 px-3 my-3">Send Message</button>
+        </div>
+      </div>
+    </section>
+    </form>
+
+
+    <section class="footer">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3022.5975173715497!2d-73.985681!3d40.748881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b30eac9f%3A0xaca05ca48ab5ac2c!2s350%205th%20Ave%2C%20New%20York%2C%20NY%2010118!5e0!3m2!1sen!2sus!4v1732644733267!5m2!1sen!2sus" width="100%" height="500" class="pt-5 mb-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+          <h5 class="bg-dark text-center text-white m-0 p-4">© Copyright 2025 Mobirise - All Rights Reserved</h5>
+     
+  </section>
+
+
+</body>
+
+</html>
